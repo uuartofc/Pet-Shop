@@ -4,7 +4,7 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Security headers middleware
 app.use((req, res, next) => {
@@ -103,4 +103,6 @@ if (require.main === module) {
     });
 }
 
-module.exports = { app, escapeHtml };
+module.exports = app;
+module.exports.app = app;
+module.exports.escapeHtml = escapeHtml;
