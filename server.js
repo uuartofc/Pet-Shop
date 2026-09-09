@@ -6,6 +6,18 @@ const nodemailer = require('nodemailer');
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
+const isPreviewPlaceholder = (value) => {
+    if (!value) return true;
+    const normalized = String(value).trim().toLowerCase();
+    return ['123', 'example', 'changeme', 'your-email', 'your-app-password', 'placeholder', 'teste'].includes(normalized);
+};
+
+const hasEmailConfig = () => {
+    return Boolean(process.env.EMAIL_USER && process.env.EMAIL_PASS) &&
+        !isPreviewPlaceholder(process.env.EMAIL_USER) &&
+        !isPreviewPlaceholder(process.env.EMAIL_PASS);
+};
+
 // Security headers middleware
 app.use((req, res, next) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
@@ -41,6 +53,16 @@ app.post('/enviar-contato', async (req, res) => {
             <div style="text-align:center; padding: 50px; font-family: sans-serif;">
                 <h2>Por favor, preencha todos os campos do formulário.</h2>
                 <a href="/">Voltar ao site</a>
+            </div>
+        `);
+    }
+
+    if (!hasEmailConfig()) {
+        return res.status(503).send(`
+            <div style="text-align:center; padding: 50px; font-family: sans-serif;">
+                <h1 style="color: #d97706;">Preview ativo sem envio de e-mail.</h1>
+                <p>Este projeto está em visualização e o formulário de contato foi desativado para não quebrar a página.</p>
+                <a href="/" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background: #ff6b6b; color: white; text-decoration: none; border-radius: 5px;">Voltar ao site</a>
             </div>
         `);
     }
