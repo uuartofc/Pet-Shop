@@ -1,6 +1,8 @@
-# 🐾 PetShop Landing Page
+# Ninho Pet Care
 
-Landing page responsiva e completa para PetShop desenvolvida com **Node.js**, **Express** e integração de formulário de contato via **Nodemailer**.
+Preview responsivo para pet shop desenvolvido com **Node.js**, **Express** e uma interface demonstrativa para cães e gatos.
+
+O preview inclui abas de cuidado, loja e agendamento mensal, carrinho de compras, login demonstrativo e persistência local no navegador. Não há pagamentos, cartões, contas reais ou envio de dados de clientes nesta etapa.
 
 ## 🚀 Como executar o projeto
 
@@ -9,7 +11,7 @@ Landing page responsiva e completa para PetShop desenvolvida com **Node.js**, **
 
 ### Passos para execução:
 
-1. **Descompactar o projeto** e abrir a pasta no terminal.
+1. **Clonar o projeto** e abrir a pasta no terminal.
 2. **Instalar as dependências:**
    ```bash
    npm install
@@ -31,3 +33,7 @@ Landing page responsiva e completa para PetShop desenvolvida com **Node.js**, **
 
 5. **Acessar a landing page:**
    Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+
+## Deploy de preview
+
+O projeto mantém `vercel.json` para deploy com `@vercel/node`. O backend não envia e-mails quando as credenciais não estão configuradas, evitando efeitos reais durante a fase de preview.
