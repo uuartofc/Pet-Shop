@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cão & Gato PetShop e Clínica Veterinária em São Paulo. Cuidados especializados para cães e gatos com agendamento online, consultório exclusivo felino e produtos selecionados.">
+    <title>Cão & Gato PetShop · Cuidado Integrado para Cães e Gatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Top Announcement Strip -->
+    <div class="top-announcement">
+        <span><span class="top-badge">Cão &amp; Gato</span> Consultório Exclusivo Cat-Friendly &amp; Centro Estético Canino</span>
+        <span>Plantão &amp; WhatsApp: <strong>(11) 3456-7890</strong> · Pinheiros, SP</span>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="site-header">
+        <a class="logo" href="#inicio" aria-label="Página inicial Cão e Gato">
+            <div class="logo-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 10.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-6 2c1.38 0 2.5-1.12 2.5-2.5S7.38 7.5 6 7.5 3.5 8.62 3.5 10s1.12 2.5 2.5 2.5zm12 0c1.38 0 2.5-1.12 2.5-2.5S19.38 7.5 18 7.5s-2.5 1.12-2.5 2.5 1.12 2.5 2.5 2.5zm-9.5 3.5c-.83 0-1.5.67-1.5 1.5 0 2.5 3.13 4.5 7 4.5s7-2 7-4.5c0-.83-.67-1.5-1.5-1.5-1.8 0-3.05.9-5.5.9s-3.7-.9-5.5-.9z"/>
+                </svg>
+            </div>
+            <span>Cão &amp; Gato</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Momentos Cão &amp; Gato</a>
+            <a href="#agendamento">Agendar Horário</a>
+            <a href="#loja">Farmácia &amp; Loja</a>
+            <a href="#contato">Fale Conosco</a>
+        </nav>
+
+        <div class="header-actions">
+            <button class="btn btn-secondary" id="userButton" type="button" aria-haspopup="dialog">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <span id="userLabel">Minha Conta</span>
+            </button>
+            <button class="btn btn-icon" id="cartButton" type="button" aria-label="Abrir carrinho de compras">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span id="cartCount" class="cart-badge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section (Harmonia entre Cães e Gatos) -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-text-col reveal-fade-up">
+                <span class="hero-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    Acolhimento Especializado para Cães &amp; Gatos
+                </span>
+                <h1 class="hero-title">Atenção dedicada para <mark>quem você mais ama.</mark></h1>
+                <p class="hero-subtitle prose-constraint">
+                    Medicina preventiva felina, centro estético canino e curadoria nutricional. Ambientes planejados para o bem-estar de cada espécie, sem estresse ou medo.
+                </p>
+
+                <div class="hero-cta-group">
+                    <button class="btn btn-primary primary" id="heroStartBookingBtn" type="button">
+                        Agendar em 4 Passos
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </button>
+                    <a href="#loja" class="btn btn-secondary">
+                        Ver Farmácia &amp; Loja
+                    </a>
+                </div>
+
+                <div class="hero-trust-bar">
+                    <div class="trust-item">
+                        <span class="trust-stars">★★★★★</span>
+                        <span class="trust-label">4.9/5 (2.800+ tutores de cães e gatos)</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" aria-hidden="true">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <span class="trust-label">CRMV-SP com Consultório Cat-Friendly</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dual Pet Visual Display (Equal representation of Dog & Cat) -->
+            <div class="hero-dual-visual reveal-fade-up">
+                <div class="hero-pet-card card-dog">
+                    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=700&q=85" alt="Cão saudável e alegre recebendo carinho" class="hero-pet-img" loading="eager">
+                    <div class="hero-pet-badge">
+                        <span>🐶 Estética Canina &amp; Hidratação</span>
+                    </div>
+                </div>
+
+                <div class="hero-pet-card card-cat">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=700&q=85" alt="Gato relaxado em ambiente silencioso e tranquilo" class="hero-pet-img" loading="eager">
+                    <div class="hero-pet-badge">
+                        <span>🐱 Consultório Exclusivo Felino</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Differentials Strip -->
+        <section class="differentials-strip" aria-label="Diferenciais para cães e gatos">
+            <div class="strip-grid">
+                <div class="diff-card">
+                    <div class="diff-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Manejo Cat &amp; Dog Friendly</h4>
+                        <p>Salas separadas para gatos e cães, sem odores ou latidos estressantes.</p>
+                    </div>
+                </div>
+
+                <div class="diff-card">
+                    <div class="diff-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Farmácia Veterinária Completa</h4>
+                        <p>Remédios originais, controle térmico e orientação farmacêutica de dosagem.</p>
+                    </div>
+                </div>
+
+                <div class="diff-card">
+                    <div class="diff-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Horários Pontuais</h4>
+                        <p>Agendamento digital sem filas ou espera na recepção.</p>
+                    </div>
+                </div>
+
+                <div class="diff-card">
+                    <div class="diff-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <rect x="1" y="3" width="15" height="13"></rect>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4>Entrega Express em SP</h4>
+                        <p>Rações e medicamentos entregues no mesmo dia para toda a capital.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARROSSEL DEDICADO: MOMENTOS CÃO & GATO -->
+        <section id="galeria" class="section-wrapper reveal-fade-up">
+            <div class="section-head">
+                <span class="section-eyebrow">Galeria Fotográfica</span>
+                <h2 class="section-title">Momentos de bem-estar na Cão &amp; Gato</h2>
+                <p class="section-desc prose-constraint">
+                    Veja nossos pacientes e amigos caninos e felinos desfrutando de carinho, tosa relaxante e medicina ética.
+                </p>
+            </div>
+
+            <div class="carousel-container" id="petCarousel">
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="carouselTrack">
+                        <!-- Slide 1: Gato Siberiano/Persa -->
+                        <div class="carousel-slide">
+                            <div class="carousel-img-wrap">
+                                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=900&q=85" alt="Gato estiloso e calmo após cuidados de higiene" loading="lazy">
+                                <span class="carousel-species-tag">🐱 Espaço Felino</span>
+                            </div>
+                            <div class="carousel-slide-content">
+                                <span class="section-eyebrow">Manejo com Paciência</span>
+                                <h3>Escovação Profunda &amp; Tosa Felina</h3>
+                                <p>Gatos exigem calma, feromônios ambientais e toalhas aquecidas. A remoção de subpelos previne bolas de pelo sem assustar o felino.</p>
+                                <ul class="carousel-meta-list">
+                                    <li><span class="check-bullet">✓</span> Ambiente com Feliway (sem odores de cães)</li>
+                                    <li><span class="check-bullet">✓</span> Corte de unhas seguro e higienização dos olhos</li>
+                                    <li><span class="check-bullet">✓</span> Escovação com cerdas ultrafinas</li>
+                                </ul>
+                                <button class="btn btn-secondary carousel-book-btn" type="button" data-service="Banho e Tosa">
+                                    Agendar para Meu Gato <span>→</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: Cão Golden Retriever -->
+                        <div class="carousel-slide">
+                            <div class="carousel-img-wrap">
+                                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=85" alt="Cão feliz relaxando no gramado após banho e tosa" loading="lazy">
+                                <span class="carousel-species-tag">🐶 Centro Canino</span>
+                            </div>
+                            <div class="carousel-slide-content">
+                                <span class="section-eyebrow">Alegria &amp; Limpeza</span>
+                                <h3>Banho Relaxante &amp; Tosa da Raça</h3>
+                                <p>Secagem acústica suave, proteção auricular e hidratação com óleo de argan pet para pelos sedosos e brilhantes.</p>
+                                <ul class="carousel-meta-list">
+                                    <li><span class="check-bullet">✓</span> Produtos hipoalergênicos dermatológicos</li>
+                                    <li><span class="check-bullet">✓</span> Toalhas 100% esterilizadas e individuais</li>
+                                    <li><span class="check-bullet">✓</span> Profissionais certificados em comportamento</li>
+                                </ul>
+                                <button class="btn btn-secondary carousel-book-btn" type="button" data-service="Banho e Tosa">
+                                    Agendar para Meu Cão <span>→</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3: Gatinho em Consulta -->
+                        <div class="carousel-slide">
+                            <div class="carousel-img-wrap">
+                                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=900&q=85" alt="Gato fofo recebendo carinho e avaliação de saúde preventiva" loading="lazy">
+                                <span class="carousel-species-tag">🐱 Medicina Preventiva</span>
+                            </div>
+                            <div class="carousel-slide-content">
+                                <span class="section-eyebrow">Clínica Especializada</span>
+                                <h3>Consultório Silencioso Cat-Friendly</h3>
+                                <p>Mesas térmicas acolchoadas, aferição de pressão arterial e check-up renal preventivo adaptado às fases da vida do seu gato.</p>
+                                <ul class="carousel-meta-list">
+                                    <li><span class="check-bullet">✓</span> Vacinas importadas Quádrupla Felina e Raiva</li>
+                                    <li><span class="check-bullet">✓</span> Testes rápidos FIV / FeLV com laudo na hora</li>
+                                    <li><span class="check-bullet">✓</span> Acompanhamento de peso e nutrição úmida</li>
+                                </ul>
+                                <button class="btn btn-secondary carousel-book-btn" type="button" data-service="Consulta Clínica Felina">
+                                    Marcar Consulta Felina <span>→</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4: Cãozinho Shih-Tzu / Lulu -->
+                        <div class="carousel-slide">
+                            <div class="carousel-img-wrap">
+                                <img src="https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&w=900&q=85" alt="Cãozinho aconchegado em caminha macia descansando feliz" loading="lazy">
+                                <span class="carousel-species-tag">🐶 Conforto Canino</span>
+                            </div>
+                            <div class="carousel-slide-content">
+                                <span class="section-eyebrow">Saúde da Pele &amp; Pelos</span>
+                                <h3>Tratamento de Pele &amp; Bem-Estar</h3>
+                                <p>Cuidado meticuloso para raças braquicefálicas e de pelagem longa. Limpeza suave de dobras, ouvidos e prevenção de dermatites.</p>
+                                <ul class="carousel-meta-list">
+                                    <li><span class="check-bullet">✓</span> Ozonoterapia e banhos medicinais</li>
+                                    <li><span class="check-bullet">✓</span> Tosa bebê com tesoura japonesa</li>
+                                    <li><span class="check-bullet">✓</span> Ambiente seguro e climatizado</li>
+                                </ul>
+                                <button class="btn btn-secondary carousel-book-btn" type="button" data-service="Banho e Tosa">
+                                    Conhecer Tratamento <span>→</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <div class="carousel-controls">
+                    <div class="carousel-dots" id="carouselDots">
+                        <button class="carousel-dot active" type="button" aria-label="Slide 1"></button>
+                        <button class="carousel-dot" type="button" aria-label="Slide 2"></button>
+                        <button class="carousel-dot" type="button" aria-label="Slide 3"></button>
+                        <button class="carousel-dot" type="button" aria-label="Slide 4"></button>
+                    </div>
+
+                    <div class="carousel-arrows">
+                        <button class="carousel-arrow-btn" id="prevSlideBtn" type="button" aria-label="Animal anterior">←</button>
+                        <button class="carousel-arrow-btn" id="nextSlideBtn" type="button" aria-label="Próximo animal">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicos" class="section-wrapper reveal-fade-up">
+            <div class="section-head">
+                <span class="section-eyebrow">Atendimento Completo</span>
+                <h2 class="section-title">Serviços pensados para a natureza de cada pet</h2>
+                <p class="section-desc prose-constraint">
+                    Garantimos tratamentos individualizados, respeitando o temperamento e o ritmo de cães e gatos.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div>
+                        <div class="service-icon-box">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                            </svg>
+                        </div>
+                        <h3>Banho &amp; Estética Relaxante</h3>
+                        <p>Higiene especializada para cães e felinos. Secagem com proteção auricular, tosa da raça e hidratação antinós.</p>
+                        <ul class="service-features">
+                            <li><span class="check-bullet">✓</span> Shampoos hipoalergênicos e toalhas individuais</li>
+                            <li><span class="check-bullet">✓</span> Tosa higiênica e corte de unhas indolor</li>
+                            <li><span class="check-bullet">✓</span> Toque gentil com foco em redução de estresse</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-secondary wizard-trigger-btn" type="button" data-service="Banho e Tosa Especializado">
+                        Agendar Horário <span>→</span>
+                    </button>
+                </article>
+
+                <article class="service-card">
+                    <div>
+                        <div class="service-icon-box">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path>
+                                <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
+                                <circle cx="20" cy="10" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3>Clínica Geral &amp; Exclusiva Felina</h3>
+                        <p>Corpo clínico veterinário com consultórios isolados para cães e gatos, evitando ansiedade e latidos.</p>
+                        <ul class="service-features">
+                            <li><span class="check-bullet">✓</span> Vacinas importadas V10, Quádrupla e Raiva</li>
+                            <li><span class="check-bullet">✓</span> Exames laboratoriais e ultrassom diagnóstico</li>
+                            <li><span class="check-bullet">✓</span> Check-up preventivo em todas as fases da vida</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-secondary wizard-trigger-btn" type="button" data-service="Consulta Veterinária Clínica">
+                        Marcar Consulta <span>→</span>
+                    </button>
+                </article>
+
+                <article class="service-card">
+                    <div>
+                        <div class="service-icon-box">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Nutrição &amp; Farmácia Orientada</h3>
+                        <p>Prescrição de dietas especiais para obesidade, diabetes ou alergias, e farmácia completa de medicamentos.</p>
+                        <ul class="service-features">
+                            <li><span class="check-bullet">✓</span> Alimentos Super Premium para cães e gatos</li>
+                            <li><span class="check-bullet">✓</span> Petiscos naturais e suplementos articulares</li>
+                            <li><span class="check-bullet">✓</span> Orientação farmacêutica no balcão e online</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-secondary wizard-trigger-btn" type="button" data-service="Vacinação & Check-up Preventivo">
+                        Consultar Especialista <span>→</span>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- AGENDADOR EM 4 SESSÕES SEPARADAS (WIZARD STEPPER) -->
+        <section id="agendamento" class="section-wrapper reveal-fade-up">
+            <div class="section-head">
+                <span class="section-eyebrow">Agendamento Inteligente</span>
+                <h2 class="section-title">Agende o atendimento do seu pet em 4 sessões simples</h2>
+                <p class="section-desc prose-constraint">
+                    Escolha o serviço ideal, o horário mais conveniente e receba a confirmação instantânea no seu celular.
+                </p>
+            </div>
+
+            <div class="booking-wizard-card">
+                <!-- Wizard Steps Indicator -->
+                <div class="wizard-steps-nav" role="tablist">
+                    <div class="wizard-step-node active" id="stepIndicator1">
+                        <span class="step-num-circle">1</span>
+                        <span>Sessão 1: Serviço</span>
+                    </div>
+                    <div class="wizard-step-node" id="stepIndicator2">
+                        <span class="step-num-circle">2</span>
+                        <span>Sessão 2: Data &amp; Horário</span>
+                    </div>
+                    <div class="wizard-step-node" id="stepIndicator3">
+                        <span class="step-num-circle">3</span>
+                        <span>Sessão 3: Pet &amp; Tutor</span>
+                    </div>
+                    <div class="wizard-step-node" id="stepIndicator4">
+                        <span class="step-num-circle">4</span>
+                        <span>Sessão 4: Confirmação</span>
+                    </div>
+                </div>
+
+                <!-- Pane 1: Seleção do Serviço -->
+                <div class="wizard-pane active" id="pane1">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Passo 1: Qual cuidado seu pet precisa hoje?</h3>
+                    <p class="prose-constraint" style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">
+                        Selecione a opção desejada. Você poderá personalizar preferências na etapa seguinte.
+                    </p>
+
+                    <div class="service-select-grid">
+                        <div class="service-choice-card selected" data-value="Banho e Tosa Especializado" data-price="R$ 89,00" data-time="60 min">
+                            <h4>🛁 Banho &amp; Estética (Cão ou Gato)</h4>
+                            <p>Higiene completa com cosméticos hipoalergênicos, toalhas individuais e tosa higiênica.</p>
+                            <div class="service-choice-meta">
+                                <span>A partir de R$ 89,00</span>
+                                <span>Duração: ~60 min</span>
+                            </div>
+                        </div>
+
+                        <div class="service-choice-card" data-value="Consulta Veterinária Clínica" data-price="R$ 140,00" data-time="45 min">
+                            <h4>🩺 Consulta Clínica Geral</h4>
+                            <p>Avaliação médica completa com exame físico detalhado, aferição de sinais e orientação.</p>
+                            <div class="service-choice-meta">
+                                <span>R$ 140,00</span>
+                                <span>Duração: ~45 min</span>
+                            </div>
+                        </div>
+
+                        <div class="service-choice-card" data-value="Consulta Exclusiva Felina Cat-Friendly" data-price="R$ 160,00" data-time="50 min">
+                            <h4>🐱 Consulta Felina Especializada</h4>
+                            <p>Atendimento em sala com isolamento acústico e difusor de feromônios para gatos.</p>
+                            <div class="service-choice-meta">
+                                <span>R$ 160,00</span>
+                                <span>Duração: ~50 min</span>
+                            </div>
+                        </div>
+
+                        <div class="service-choice-card" data-value="Vacinação & Check-up Preventivo" data-price="R$ 110,00" data-time="30 min">
+                            <h4>💉 Vacinação &amp; Imunização</h4>
+                            <p>Aplicação de vacinas éticas importadas (V10, Quádrupla, Antirrábica) com carteirinha digital.</p>
+                            <div class="service-choice-meta">
+                                <span>A partir de R$ 110,00</span>
+                                <span>Duração: ~30 min</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wizard-nav-btns" style="justify-content: flex-end;">
+                        <button class="btn btn-primary primary" id="nextToStep2" type="button">
+                            Continuar para Horários →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pane 2: Escolha de Especialista e Horário -->
+                <div class="wizard-pane" id="pane2">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Passo 2: Escolha o Especialista e o Horário</h3>
+                    <p class="prose-constraint" style="color: var(--text-muted); margin-bottom: 20px; font-size: 0.9rem;">
+                        Selecione o profissional e a janela de atendimento mais conveniente para você.
+                    </p>
+
+                    <div style="margin-bottom: 20px;">
+                        <label for="selectSpecialist" style="display: block; font-weight: 700; font-size: 0.88rem; margin-bottom: 8px;">Especialista Responsável:</label>
+                        <select id="selectSpecialist" style="width: 100%; max-width: 480px; padding: 12px; border: 1px solid var(--line-subtle); border-radius: var(--radius-sm); font-size: 0.95rem; background: var(--brand-cream);">
+                            <option value="Dra. Juliana Mendes (CRMV-SP 42.891 · Felinos e Dermatologia)">Dra. Juliana Mendes (CRMV-SP 42.891 · Especialista em Felinos)</option>
+                            <option value="Dr. Renato Albuquerque (CRMV-SP 38.204 · Clínica Médica Canina)">Dr. Renato Albuquerque (CRMV-SP 38.204 · Clínica Médica Canina)</option>
+                            <option value="Equipe Master de Estética & Bem-Estar Pet">Equipe Master de Estética &amp; Bem-Estar Pet</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="bookingDate" style="display: block; font-weight: 700; font-size: 0.88rem; margin-bottom: 8px;">Data Desejada:</label>
+                        <input type="date" id="bookingDate" style="padding: 12px 16px; border: 1px solid var(--line-subtle); border-radius: var(--radius-sm); font-size: 0.95rem; background: var(--brand-cream); min-height: 44px;">
+                    </div>
+
+                    <div style="margin-top: 24px;">
+                        <span style="display: block; font-weight: 700; font-size: 0.88rem; margin-bottom: 12px;">Horários Disponíveis Hoje/Amanhã:</span>
+                        <div class="slots-container" id="timeSlotsGrid">
+                            <button type="button" class="time-slot-btn selected" data-slot="09:00">09:00</button>
+                            <button type="button" class="time-slot-btn" data-slot="10:30">10:30</button>
+                            <button type="button" class="time-slot-btn" data-slot="11:45">11:45</button>
+                            <button type="button" class="time-slot-btn" data-slot="14:00">14:00</button>
+                            <button type="button" class="time-slot-btn" data-slot="15:30">15:30</button>
+                            <button type="button" class="time-slot-btn" data-slot="17:00">17:00</button>
+                        </div>
+                    </div>
+
+                    <div class="wizard-nav-btns">
+                        <button class="btn btn-secondary" id="backToStep1" type="button">← Voltar</button>
+                        <button class="btn btn-primary primary" id="nextToStep3" type="button">Preencher Dados do Pet →</button>
+                    </div>
+                </div>
+
+                <!-- Pane 3: Dados do Pet e Tutor -->
+                <div class="wizard-pane" id="pane3">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Passo 3: Quem vamos cuidar com carinho?</h3>
+                    <p class="prose-constraint" style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">
+                        Conte-nos um pouco sobre seu pet para prepararmos a sala e a equipe com antecedência.
+                    </p>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 16px;">
+                        <div class="auth-field">
+                            <label for="petNameInput">Nome do Pet *</label>
+                            <input type="text" id="petNameInput" placeholder="Ex: Fred, Luna, Pipoca" required>
+                        </div>
+
+                        <div class="auth-field">
+                            <label for="petSpeciesSelect">Espécie *</label>
+                            <select id="petSpeciesSelect" style="padding: 14px; border: 1px solid var(--line-subtle); border-radius: var(--radius-sm); font-size: 0.95rem; background: var(--brand-cream); min-height: 44px;">
+                                <option value="Cão 🐶" selected>Cão 🐶</option>
+                                <option value="Gato 🐱">Gato 🐱</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 16px;">
+                        <div class="auth-field">
+                            <label for="petBreedInput">Raça / Porte</label>
+                            <input type="text" id="petBreedInput" placeholder="Ex: Golden Retriever (Porte Grande) ou SRD">
+                        </div>
+
+                        <div class="auth-field">
+                            <label for="tutorNameInput">Nome do Tutor(a) *</label>
+                            <input type="text" id="tutorNameInput" placeholder="Como podemos chamar você?" required>
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 16px;">
+                        <div class="auth-field">
+                            <label for="tutorPhoneInput">WhatsApp / Celular para Confirmação *</label>
+                            <input type="tel" id="tutorPhoneInput" placeholder="(11) 99999-9999" required>
+                        </div>
+
+                        <div class="auth-field">
+                            <label for="petNotesInput">Observações Importantes (Alergias, Medo de Secador, etc.)</label>
+                            <input type="text" id="petNotesInput" placeholder="Ex: Meu gato tem medo de ruídos altos">
+                        </div>
+                    </div>
+
+                    <div class="wizard-nav-btns">
+                        <button class="btn btn-secondary" id="backToStep2" type="button">← Voltar</button>
+                        <button class="btn btn-primary primary" id="nextToStep4" type="button">Ver Resumo e Confirmar →</button>
+                    </div>
+                </div>
+
+                <!-- Pane 4: Resumo & Confirmação -->
+                <div class="wizard-pane" id="pane4">
+                    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Passo 4: Resumo e Confirmação do Atendimento</h3>
+                    <p class="prose-constraint" style="color: var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">
+                        Confira os detalhes abaixo. Seu horário fica reservado e registrado em sua conta.
+                    </p>
+
+                    <div class="booking-summary-box">
+                        <div class="summary-row">
+                            <span>Serviço Solicitado:</span>
+                            <strong id="sumService">Banho e Tosa Especializado</strong>
+                        </div>
+                        <div class="summary-row">
+                            <span>Profissional / Setor:</span>
+                            <span id="sumSpecialist">Dra. Juliana Mendes</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Data e Horário:</span>
+                            <span id="sumDateTime">A definir</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Pet Cadastrado:</span>
+                            <span id="sumPetInfo">Fred (Cão)</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tutor(a) Responsável:</span>
+                            <span id="sumTutorInfo">Camila Ribeiro · WhatsApp</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Investimento Estimado:</span>
+                            <span id="sumPrice">R$ 89,00</span>
+                        </div>
+                    </div>
+
+                    <div style="background: var(--brand-sage-light); color: var(--brand-sage); padding: 12px 18px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 700; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        <span>Garantia de atendimento no horário marcado, sem aglomeração ou estresse para o pet.</span>
+                    </div>
+
+                    <div class="wizard-nav-btns">
+                        <button class="btn btn-secondary" id="backToStep3" type="button">← Corrigir Dados</button>
+                        <button class="btn btn-primary primary" id="confirmBookingBtn" type="button">
+                            Confirmar Agendamento com Sucesso ✓
+                        </button>
+                    </div>
+
+                    <div id="bookingSuccessBox" style="display: none; text-align: center; padding: 28px 20px; margin-top: 24px; background: var(--brand-cream); border-radius: var(--radius-md); border: 2px solid var(--brand-sage);">
+                        <div style="font-size: 2.2rem; margin-bottom: 8px;">🎉</div>
+                        <h4 style="font-size: 1.3rem; color: var(--brand-sage); margin-bottom: 6px;">Agendamento Confirmado com Sucesso!</h4>
+                        <p class="prose-constraint" style="color: var(--text-muted); font-size: 0.9rem; margin: 0 auto 16px;">
+                            Enviamos a confirmação detalhada para o WhatsApp informado. Você também pode acompanhar o agendamento na sua área de cliente.
+                        </p>
+                        <button class="btn btn-secondary" type="button" id="openClientAreaFromBooking">
+                            Visualizar na Minha Conta
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shop & Pharmacy Section (Equilíbrio Cães e Gatos) -->
+        <section id="loja" class="shop-bg">
+            <div class="section-wrapper reveal-fade-up">
+                <div class="section-head">
+                    <span class="section-eyebrow">Farmácia &amp; Boutique</span>
+                    <h2 class="section-title">Produtos selecionados para Cães e Gatos</h2>
+                    <p class="section-desc prose-constraint">
+                        Trabalhamos exclusivamente com laboratórios de confiança e marcas consagradas. Ofertas especiais com frete grátis para São Paulo.
+                    </p>
+                </div>
+
+                <div class="shop-filter-bar" role="group" aria-label="Filtrar catálogo de produtos">
+                    <button class="filter-pill active" data-filter="todos" type="button">Todos os Produtos</button>
+                    <button class="filter-pill" data-filter="caes" type="button">Para Cães 🐶</button>
+                    <button class="filter-pill" data-filter="gatos" type="button">Para Gatos 🐱</button>
+                    <button class="filter-pill" data-filter="farmacia" type="button">Farmácia &amp; Saúde</button>
+                </div>
+
+                <p id="shopStatusMsg" class="shop-status-msg" aria-live="polite"></p>
+
+                <div id="productCatalog" class="product-catalog"></div>
+            </div>
+        </section>
+
+        <!-- Brand Story & Authority Section -->
+        <section id="sobre" class="section-wrapper reveal-fade-up">
+            <div class="story-section">
+                <div class="story-content">
+                    <span class="section-eyebrow">Nossa História &amp; Missão</span>
+                    <h2 class="section-title">8 anos dedicados ao amor por cães e gatos em São Paulo.</h2>
+                    <p class="prose-constraint" style="margin-bottom: 20px;">
+                        A Cão &amp; Gato nasceu do desejo de criar um espaço onde espécies com naturezas distintas pudessem ser atendidas com respeito total à sua individualidade biológica e comportamental.
+                    </p>
+                    <p class="prose-constraint" style="color: var(--text-muted);">
+                        Aqui os gatos não ouvem latidos enquanto são examinados, e os cães encontram profissionais apaixonados por energia e carinho.
+                    </p>
+
+                    <div class="story-badges">
+                        <div class="story-badge-card">
+                            <strong>Corpo Clínico CRMV-SP</strong>
+                            <p>Especialistas dedicados em felinos e cães.</p>
+                        </div>
+                        <div class="story-badge-card">
+                            <strong>Isolamento Acústico</strong>
+                            <p>Salas exclusivas garantem tranquilidade sensorial.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=85" alt="Cão e gato descansando juntos em perfeita harmonia" style="width: 100%; height: 380px; object-fit: cover; border-radius: var(--radius-md); box-shadow: var(--shadow-soft);" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials (Social Proof Balanceada) -->
+        <section class="section-wrapper reveal-fade-up" style="padding-top: 0;">
+            <div class="section-head">
+                <span class="section-eyebrow">Depoimentos Verificados</span>
+                <h2 class="section-title">O que dizem os tutores de cães e gatos</h2>
+                <p class="section-desc prose-constraint">
+                    Mais de 2.800 avaliações 5 estrelas de famílias satisfeitas.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Foto do tutor Marcos" class="tutor-avatar" loading="lazy">
+                        <div class="tutor-info">
+                            <strong>Marcos Ribeiro</strong>
+                            <span>Tutor do Oliver e da Maia (Gatos)</span>
+                        </div>
+                    </div>
+                    <div style="color: var(--brand-amber); margin-bottom: 10px;">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Encontrar um veterinário que realmente entenda de gatos parecia impossível. Na Cão &amp; Gato, a sala exclusiva felina sem cheiro de cachorro faz meus gatos ficarem totalmente calmos durante a consulta."
+                    </p>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Foto da tutora Camila" class="tutor-avatar" loading="lazy">
+                        <div class="tutor-info">
+                            <strong>Camila Vasconcelos</strong>
+                            <span>Tutora do Pipoca (Spitz Alemão)</span>
+                        </div>
+                    </div>
+                    <div style="color: var(--brand-amber); margin-bottom: 10px;">★★★★★</div>
+                    <p class="testimonial-text">
+                        "O banho da Cão &amp; Gato é o único onde meu spitz sai relaxado e cheiroso, sem tremer. A atenção da equipe com a pele sensível dele fez toda a diferença."
+                    </p>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Foto da tutora Renata" class="tutor-avatar" loading="lazy">
+                        <div class="tutor-info">
+                            <strong>Renata Medeiros</strong>
+                            <span>Tutora do Thor (Golden) e da Luna (Gata)</span>
+                        </div>
+                    </div>
+                    <div style="color: var(--brand-amber); margin-bottom: 10px;">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Tenho cachorro e gato em casa e compro tudo aqui pelo site. O agendamento em 4 passos facilitou demais a minha rotina, e as entregas de ração chegam sempre pontuais."
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact & Booking Section -->
+        <section id="contato" class="section-wrapper reveal-fade-up">
+            <div style="background: linear-gradient(135deg, #18221f 0%, #202e2a 100%); color: #ffffff; border-radius: var(--radius-lg); padding: clamp(36px, 6vw, 72px);">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(32px, 5vw, 64px); align-items: center;">
+                    <div>
+                        <span class="section-eyebrow" style="color: #f7a086;">Atendimento &amp; Emergências</span>
+                        <h2 style="color: #ffffff; font-size: clamp(2rem, 3vw, 2.6rem); margin-bottom: 16px;">Estamos por perto quando seu pet mais precisa.</h2>
+                        <p class="prose-constraint" style="color: #a8b8b2; margin-bottom: 28px;">
+                            Dúvidas sobre dosagens, sintomas ou orientações para filhotes e idosos? Nossa equipe atende com carinho e prontidão.
+                        </p>
+
+                        <div style="display: grid; gap: 14px; margin-bottom: 28px;">
+                            <div style="display: flex; align-items: center; gap: 12px; color: #d1ded8;">
+                                <span>📞</span> <span>Central Telefônica: <strong>(11) 3456-7890</strong></span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; color: #d1ded8;">
+                                <span>✉️</span> <span>E-mail: <strong>contato@caoegato.com.br</strong></span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; color: #d1ded8;">
+                                <span>📍</span> <span>Endereço: <strong>Rua das Patinhas, 120 · Pinheiros, São Paulo - SP</strong></span>
+                            </div>
+                        </div>
+
+                        <div style="display: inline-flex; align-items: center; gap: 10px; padding: 10px 18px; background: rgba(45, 106, 79, 0.25); border-radius: var(--radius-pill); font-size: 0.8rem; color: #a5d6a7; font-weight: 700;">
+                            <span>🔒 Ambiente Seguro com Criptografia SSL 256-bit</span>
+                        </div>
+                    </div>
+
+                    <div style="background: #ffffff; color: var(--text-main); border-radius: var(--radius-md); padding: 32px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 14px;">Envie uma mensagem direta</h3>
+                        <form action="/enviar-contato" method="POST" id="quickContactForm">
+                            <div class="auth-field">
+                                <label for="contactName">Seu Nome *</label>
+                                <input type="text" id="contactName" name="nome" placeholder="Como podemos chamar você?" required>
+                            </div>
+                            <div class="auth-field">
+                                <label for="contactEmail">Seu E-mail *</label>
+                                <input type="email" id="contactEmail" name="email" placeholder="seu@email.com" required>
+                            </div>
+                            <div class="auth-field">
+                                <label for="contactPet">Nome e Espécie do Pet *</label>
+                                <input type="text" id="contactPet" name="pet" placeholder="Ex: Fred (Cão) ou Luna (Gata)" required>
+                            </div>
+                            <div class="auth-field">
+                                <label for="contactMessage">Mensagem ou Dúvida *</label>
+                                <input type="text" id="contactMessage" name="mensagem" placeholder="Como podemos ajudar você hoje?" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary primary" style="width: 100%; margin-top: 8px;">
+                                Enviar Mensagem Segura →
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Drawer -->
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Carrinho de Compras">
+        <div class="drawer-header">
+            <div>
+                <span class="section-eyebrow" style="margin-bottom: 2px;">Sua Sacola</span>
+                <h3 style="font-size: 1.25rem;">Itens Selecionados</h3>
+            </div>
+            <button class="btn-icon" id="closeCartBtn" type="button" aria-label="Fechar carrinho de compras">✕</button>
+        </div>
+
+        <div class="cart-item-list" id="cartItemsList"></div>
+
+        <div class="cart-footer">
+            <div style="background: var(--brand-sage-light); color: var(--brand-sage); padding: 8px 12px; border-radius: var(--radius-sm); font-size: 0.8rem; font-weight: 700; text-align: center;">
+                🌿 Frete Grátis ativado para este pedido!
+            </div>
+            <div class="cart-total-row">
+                <span>Total Estimado:</span>
+                <span id="cartTotalVal" style="color: var(--brand-terracotta);">R$ 0,00</span>
+            </div>
+            <button class="btn btn-primary primary" id="btnCheckout" type="button" style="width: 100%;">
+                Finalizar Pedido com Atendente
+            </button>
+        </div>
+    </aside>
+
+    <!-- Backdrop Overlay -->
+    <div class="overlay-backdrop" id="backdropOverlay"></div>
+
+    <!-- MODAL DE LOGIN SATISFATÓRIO & ÁREA DO CLIENTE (CLEAN & SEM POLUIÇÃO) -->
+    <div class="clean-auth-modal" id="authDialog" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="authHeading">
+        <div class="clean-auth-card">
+            <button class="btn-icon" id="closeAuthBtn" type="button" aria-label="Fechar janela" style="position: absolute; top: 16px; right: 16px;">✕</button>
+
+            <!-- Modo 1: Formulário de Login / Cadastro (Não Conectado) -->
+            <div id="unloggedView">
+                <span class="section-eyebrow" style="margin-bottom: 6px;">Área do Tutor</span>
+                <h3 id="authHeading" style="font-size: 1.6rem; margin-bottom: 8px;">Bem-vindo(a)</h3>
+                <p class="prose-constraint" style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 24px;">
+                    Acesse sua conta para consultar histórico, vacinas e agendamentos dos seus pets.
+                </p>
+
+                <div class="auth-nav-tabs">
+                    <button type="button" class="auth-tab-btn active" id="tabLoginBtn">Acessar Conta</button>
+                    <button type="button" class="auth-tab-btn" id="tabRegisterBtn">Criar Cadastro</button>
+                </div>
+
+                <form id="authFormClean">
+                    <div class="auth-field" id="nameFieldGroup" style="display: none;">
+                        <label for="regTutorName">Seu Nome Completo</label>
+                        <input type="text" id="regTutorName" placeholder="Ex: Mariana Silva">
+                    </div>
+
+                    <div class="auth-field">
+                        <label for="authEmailClean">E-mail</label>
+                        <input type="email" id="authEmailClean" placeholder="seu@email.com" required>
+                    </div>
+
+                    <div class="auth-field">
+                        <label for="authPassClean">Senha de Acesso</label>
+                        <input type="password" id="authPassClean" placeholder="Mínimo de 6 caracteres" required minlength="6">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary primary" id="authSubmitBtnClean" style="width: 100%; margin-top: 8px;">
+                        Entrar na Minha Conta
+                    </button>
+                </form>
+
+                <p id="authFeedbackMessage" style="text-align: center; color: var(--brand-sage); font-weight: 700; font-size: 0.85rem; margin-top: 14px;" aria-live="polite"></p>
+            </div>
+
+            <!-- Modo 2: Painel do Cliente (Conectado) -->
+            <div id="loggedView" style="display: none;">
+                <div class="client-header-box">
+                    <div class="client-avatar-badge" id="clientAvatarLetter">M</div>
+                    <div>
+                        <span class="section-eyebrow" style="margin-bottom: 2px;">Tutor(a) Conectado(a)</span>
+                        <h3 id="clientTutorName" style="font-size: 1.3rem;">Mariana Silva</h3>
+                        <p id="clientTutorEmail" style="font-size: 0.82rem; color: var(--text-muted);">mariana@email.com</p>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                        <strong style="font-size: 0.95rem;">Meus Agendamentos:</strong>
+                        <span style="font-size: 0.8rem; color: var(--brand-terracotta); font-weight: 700;">Ativos</span>
+                    </div>
+                    <div id="clientBookingsList">
+                        <div class="booking-item-card">
+                            <div>
+                                <strong style="font-size: 0.9rem; display: block;">Banho &amp; Tosa Especializado</strong>
+                                <small style="color: var(--text-muted); font-size: 0.78rem;">Fred (Golden) · Amanhã às 10:30</small>
+                            </div>
+                            <span class="booking-badge-confirmed">Confirmado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn btn-secondary" id="logoutBtn" type="button" style="flex: 1;">
+                        Desconectar
+                    </button>
+                    <button class="btn btn-primary primary" id="clientNewBookingBtn" type="button" style="flex: 1;">
+                        Novo Agendamento +
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Credentials and Authority Signals -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo" style="color: #ffffff; margin-bottom: 12px;">
+                    <div class="logo-icon" style="background: var(--brand-terracotta); color: #ffffff;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M12 10.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-6 2c1.38 0 2.5-1.12 2.5-2.5S7.38 7.5 6 7.5 3.5 8.62 3.5 10s1.12 2.5 2.5 2.5zm12 0c1.38 0 2.5-1.12 2.5-2.5S19.38 7.5 18 7.5s-2.5 1.12-2.5 2.5 1.12 2.5 2.5 2.5zm-9.5 3.5c-.83 0-1.5.67-1.5 1.5 0 2.5 3.13 4.5 7 4.5s7-2 7-4.5c0-.83-.67-1.5-1.5-1.5-1.8 0-3.05.9-5.5.9s-3.7-.9-5.5-.9z"/>
+                        </svg>
+                    </div>
+                    <span>Cão &amp; Gato PetShop</span>
+                </div>
+                <p class="prose-constraint">
+                    Centro integrado de medicina preventiva para felinos e caninos, tosa da raça e boutique de nutrição.
+                </p>
+                <div class="authority-badges-list">
+                    <span class="authority-badge">CRMV-SP 42.891 / 38.204</span>
+                    <span class="authority-badge">Certificação Ouro ABRAVAS</span>
+                    <span class="authority-badge">Selo Pet Friendly 2026</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Atendimento</h4>
+                <ul class="footer-links">
+                    <li>Segunda a Sexta: 08h às 20h</li>
+                    <li>Sábados: 08h às 18h</li>
+                    <li>Plantão Vet 24h para emergências</li>
+                    <li>Pinheiros · São Paulo, SP</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Serviços Especializados</h4>
+                <ul class="footer-links">
+                    <li>Consultório Exclusivo Felino</li>
+                    <li>Estética &amp; Banho Canino</li>
+                    <li>Medicina Veterinária Preventiva</li>
+                    <li>Vacinas Importadas Éticas</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Segurança &amp; Ética</h4>
+                <ul class="footer-links">
+                    <li>Farmácia com Farmacêutico Resp.</li>
+                    <li>Ambiente 100% Monitorado</li>
+                    <li>Produtos Hipoalergênicos</li>
+                    <li>Garantia de Satisfação</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Cão &amp; Gato PetShop Ltda. CNPJ: 28.491.042/0001-83. Todos os direitos reservados.</p>
+            <p>Desenvolvido com excelência técnica · Antigravity AI Suite</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Client Script -->
+    <script>
+        // Catálogo Balanceado (4 produtos para Cães, 4 produtos para Gatos com fotos de estúdio realistas)
+        const products = [
+            { id: 1, species: 'caes', category: 'alimentacao', image: 'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=800&q=85', tag: 'Mais Vendido', speciesTag: 'Cães 🐶', brand: 'Premier Pet', name: 'Ração Golden Special Cães Adultos', detail: 'Frango & Arroz · 15 kg · Ômega 3 e 6 para pelagem', price: 159.90, originalPrice: 189.90, rating: '4.9', reviews: 318 },
+            { id: 2, species: 'gatos', category: 'alimentacao', image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=85', tag: 'Super Premium', speciesTag: 'Gatos 🐱', brand: 'Premier Pet', name: 'Ração Premier Gatos Castrados', detail: 'Salmão Nobre · 7,5 kg · Controle de pH e peso', price: 134.90, originalPrice: 159.00, rating: '4.9', reviews: 201 },
+            { id: 3, species: 'caes', category: 'farmacia', image: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=800&q=85', tag: '12 Semanas Proteção', speciesTag: 'Cães 🐶', brand: 'Bravecto', name: 'Antipulgas Bravecto Mastigável', detail: 'Para Cães de 10 a 20 kg · Comprimido palatável', price: 112.90, originalPrice: 139.90, rating: '4.8', reviews: 146 },
+            { id: 4, species: 'gatos', category: 'farmacia', image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=85', tag: 'Higiene Felina', speciesTag: 'Gatos 🐱', brand: 'Pipicat', name: 'Areia Sanitária Pipicat Ultra', detail: 'Granulado mineral natural 12 kg · Odor zero', price: 34.90, originalPrice: 42.00, rating: '4.8', reviews: 187 },
+            { id: 5, species: 'caes', category: 'passeio', image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=800&q=85', tag: 'Passeio Seguro', speciesTag: 'Cães 🐶', brand: 'Ferplast', name: 'Peitoral Ergonômico Antiestresse', detail: 'Tamanho M regulável · Distribui o peso no peito', price: 89.90, originalPrice: 115.00, rating: '4.9', reviews: 74 },
+            { id: 6, species: 'gatos', category: 'passeio', image: 'https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=800&q=85', tag: 'Enriquecimento', speciesTag: 'Gatos 🐱', brand: 'CatPlay', name: 'Torre Arranhador Sisal com Rede', detail: 'Base pesada antitombalmento · Corda natural de sisal', price: 99.90, originalPrice: 129.00, rating: '4.9', reviews: 88 },
+            { id: 7, species: 'caes', category: 'higiene', image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=85', tag: 'Banho & Cuidados', speciesTag: 'Cães 🐶', brand: 'Sanol Dog', name: 'Shampoo Neutro Hipoalergênico', detail: 'Camomila & Aloe Vera 500 ml · Brilho e perfume', price: 29.90, originalPrice: 38.00, rating: '4.7', reviews: 92 },
+            { id: 8, species: 'caes', category: 'passeio', image: 'https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=800&q=85', tag: 'Ortopédica', speciesTag: 'Cão & Gato', brand: 'Furacão Pet', name: 'Caminha Nuvem Pelúcia Lavável', detail: 'Tamanho M aconchegante · Alivia o estresse e dores', price: 119.90, originalPrice: 149.90, rating: '4.9', reviews: 116 }
+        ];
+
+        let cart = JSON.parse(localStorage.getItem('cao-gato-cart') || '[]');
+        const formatBRL = val => val.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+        // DOM Elements
+        const catalogEl = document.querySelector('#productCatalog');
+        const cartCountEl = document.querySelector('#cartCount');
+        const cartItemsListEl = document.querySelector('#cartItemsList');
+        const cartTotalValEl = document.querySelector('#cartTotalVal');
+        const shopStatusMsgEl = document.querySelector('#shopStatusMsg');
+        const cartDrawer = document.querySelector('#cartDrawer');
+        const backdropOverlay = document.querySelector('#backdropOverlay');
+        const authDialog = document.querySelector('#authDialog');
+
+        // Renderização do Catálogo
+        function renderCatalog(filter = 'todos') {
+            const items = products.filter(p => {
+                if (filter === 'todos') return true;
+                if (filter === 'caes') return p.species === 'caes';
+                if (filter === 'gatos') return p.species === 'gatos';
+                if (filter === 'farmacia') return p.category === 'farmacia';
+                return true;
+            });
+
+            catalogEl.innerHTML = items.map(p => {
+                const savings = p.originalPrice ? (p.originalPrice - p.price) : 0;
+                return `
+                <article class="product-item">
+                    <div class="product-media">
+                        <img src="${p.image}" alt="${p.name}" loading="lazy">
+                        <span class="product-tag">${p.tag}</span>
+                        <span class="product-species-tag">${p.speciesTag}</span>
+                    </div>
+                    <div class="product-body">
+                        <div>
+                            <span class="product-brand">${p.brand}</span>
+                            <h3 class="product-name">${p.name}</h3>
+                            <p class="product-desc">${p.detail}</p>
+                            <div class="product-stars">
+                                <strong>★ ${p.rating}</strong>
+                                <span>(${p.reviews} avaliações)</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="price-container">
+                                <del class="price-original">${formatBRL(p.originalPrice)}</del>
+                                <strong class="price-current">${formatBRL(p.price)}</strong>
+                                ${savings > 0 ? `<span class="savings-tag">Economize ${formatBRL(savings)}</span>` : ''}
+                            </div>
+                            <button type="button" class="btn btn-primary primary btn-add-cart" style="width:100%;" data-id="${p.id}">
+                                Adicionar à Sacola +
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                `;
+            }).join('');
+        }
+
+        // Renderização do Carrinho
+        function renderCart() {
+            const count = cart.reduce((acc, item) => acc + item.quantity, 0);
+            cartCountEl.textContent = count;
+            
+            const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+            cartTotalValEl.textContent = formatBRL(total);
+
+            if (cart.length === 0) {
+                cartItemsListEl.innerHTML = `
+                    <div style="text-align:center; padding: 40px 10px; color: var(--text-muted);">
+                        <p style="font-size: 1rem; font-weight: 700;">Sua sacola está vazia.</p>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Explore os produtos para seu cão ou gato acima.</p>
+                    </div>
+                `;
+            } else {
+                cartItemsListEl.innerHTML = cart.map(item => `
+                    <div class="cart-row">
+                        <img src="${item.image}" alt="${item.name}" class="cart-row-img">
+                        <div class="cart-row-details">
+                            <h4>${item.name}</h4>
+                            <p>${formatBRL(item.price)} × ${item.quantity} = <strong>${formatBRL(item.price * item.quantity)}</strong></p>
+                        </div>
+                        <button type="button" class="cart-row-del btn-del-cart" data-id="${item.id}" aria-label="Remover ${item.name}">✕</button>
+                    </div>
+                `).join('');
+            }
+
+            localStorage.setItem('cao-gato-cart', JSON.stringify(cart));
+        }
+
+        function addToCart(id) {
+            const product = products.find(p => p.id === id);
+            if (!product) return;
+            const existing = cart.find(i => i.id === id);
+            if (existing) existing.quantity += 1;
+            else cart.push({ ...product, quantity: 1 });
+            renderCart();
+            cartCountEl.classList.add('bounce');
+            setTimeout(() => cartCountEl.classList.remove('bounce'), 450);
+            shopStatusMsgEl.textContent = `✓ "${product.name}" adicionado com sucesso!`;
+            setTimeout(() => { shopStatusMsgEl.textContent = ''; }, 3000);
+            toggleDrawer(true);
+        }
+
+        function removeFromCart(id) {
+            cart = cart.filter(i => i.id !== id);
+            renderCart();
+        }
+
+        function toggleDrawer(open) {
+            cartDrawer.classList.toggle('open', open);
+            backdropOverlay.classList.toggle('visible', open);
+            cartDrawer.setAttribute('aria-hidden', String(!open));
+        }
+
+        function toggleAuthModal(open) {
+            authDialog.classList.toggle('visible', open);
+            backdropOverlay.classList.toggle('visible', open);
+            authDialog.setAttribute('aria-hidden', String(!open));
+        }
+
+        // ==========================================
+        // CARROSSEL DE ANIMAIS (CÃES & GATOS)
+        // ==========================================
+        let currentSlide = 0;
+        const totalSlides = 4;
+        const track = document.querySelector('#carouselTrack');
+        const dots = document.querySelectorAll('.carousel-dot');
+
+        function updateCarousel(slideIndex) {
+            currentSlide = (slideIndex + totalSlides) % totalSlides;
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            dots.forEach((dot, idx) => {
+                dot.classList.toggle('active', idx === currentSlide);
+            });
+        }
+
+        document.querySelector('#prevSlideBtn').addEventListener('click', () => updateCarousel(currentSlide - 1));
+        document.querySelector('#nextSlideBtn').addEventListener('click', () => updateCarousel(currentSlide + 1));
+        dots.forEach((dot, idx) => {
+            dot.addEventListener('click', () => updateCarousel(idx));
+        });
+
+        // Autoplay do carrossel a cada 6 segundos
+        let carouselInterval = setInterval(() => updateCarousel(currentSlide + 1), 6000);
+        document.querySelector('#petCarousel').addEventListener('mouseenter', () => clearInterval(carouselInterval));
+        document.querySelector('#petCarousel').addEventListener('mouseleave', () => {
+            clearInterval(carouselInterval);
+            carouselInterval = setInterval(() => updateCarousel(currentSlide + 1), 6000);
+        });
+
+        // ==========================================
+        // WIZARD DE AGENDAMENTO EM 4 SESSÕES SEPARADAS
+        // ==========================================
+        const bookingData = {
+            service: 'Banho e Tosa Especializado',
+            price: 'R$ 89,00',
+            specialist: 'Dra. Juliana Mendes (CRMV-SP 42.891 · Felinos)',
+            date: '',
+            time: '09:00',
+            petName: '',
+            petSpecies: 'Cão 🐶',
+            petBreed: '',
+            tutorName: '',
+            tutorPhone: '',
+            notes: ''
+        };
+
+        // Definir data padrão no input para hoje
+        const todayStr = new Date().toISOString().split('T')[0];
+        document.querySelector('#bookingDate').value = todayStr;
+        bookingData.date = todayStr;
+
+        function showWizardStep(stepNum) {
+            for (let i = 1; i <= 4; i++) {
+                document.querySelector(`#pane${i}`).classList.toggle('active', i === stepNum);
+                const indicator = document.querySelector(`#stepIndicator${i}`);
+                indicator.classList.toggle('active', i === stepNum);
+                indicator.classList.toggle('completed', i < stepNum);
+            }
+        }
+
+        // Passo 1: Seleção do Serviço
+        document.querySelectorAll('.service-choice-card').forEach(card => {
+            card.addEventListener('click', () => {
+                document.querySelectorAll('.service-choice-card').forEach(c => c.classList.remove('selected'));
+                card.classList.add('selected');
+                bookingData.service = card.dataset.value;
+                bookingData.price = card.dataset.price;
+            });
+        });
+
+        document.querySelector('#nextToStep2').addEventListener('click', () => showWizardStep(2));
+        document.querySelector('#backToStep1').addEventListener('click', () => showWizardStep(1));
+
+        // Passo 2: Slots de Horário e Especialista
+        document.querySelectorAll('.time-slot-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.time-slot-btn').forEach(b => b.classList.remove('selected'));
+                btn.classList.add('selected');
+                bookingData.time = btn.dataset.slot;
+            });
+        });
+
+        document.querySelector('#bookingDate').addEventListener('change', (e) => {
+            bookingData.date = e.target.value;
+        });
+
+        document.querySelector('#selectSpecialist').addEventListener('change', (e) => {
+            bookingData.specialist = e.target.value;
+        });
+
+        document.querySelector('#nextToStep3').addEventListener('click', () => showWizardStep(3));
+        document.querySelector('#backToStep2').addEventListener('click', () => showWizardStep(2));
+
+        // Passo 3: Dados do Pet & Tutor
+        document.querySelector('#nextToStep4').addEventListener('click', () => {
+            const petName = document.querySelector('#petNameInput').value.trim();
+            const tutorName = document.querySelector('#tutorNameInput').value.trim();
+            const tutorPhone = document.querySelector('#tutorPhoneInput').value.trim();
+
+            if (!petName || !tutorName || !tutorPhone) {
+                alert('Por favor, preencha o Nome do Pet, seu Nome e WhatsApp de contato.');
+                return;
+            }
+
+            bookingData.petName = petName;
+            bookingData.petSpecies = document.querySelector('#petSpeciesSelect').value;
+            bookingData.petBreed = document.querySelector('#petBreedInput').value.trim();
+            bookingData.tutorName = tutorName;
+            bookingData.tutorPhone = tutorPhone;
+            bookingData.notes = document.querySelector('#petNotesInput').value.trim();
+
+            // Atualiza Resumo no Passo 4
+            document.querySelector('#sumService').textContent = bookingData.service;
+            document.querySelector('#sumSpecialist').textContent = bookingData.specialist;
+            document.querySelector('#sumDateTime').textContent = `${bookingData.date} às ${bookingData.time}`;
+            document.querySelector('#sumPetInfo').textContent = `${bookingData.petName} (${bookingData.petSpecies}) ${bookingData.petBreed ? '· ' + bookingData.petBreed : ''}`;
+            document.querySelector('#sumTutorInfo').textContent = `${bookingData.tutorName} · ${bookingData.tutorPhone}`;
+            document.querySelector('#sumPrice').textContent = bookingData.price;
+
+            showWizardStep(4);
+        });
+
+        document.querySelector('#backToStep3').addEventListener('click', () => showWizardStep(3));
+
+        // Passo 4: Confirmação
+        document.querySelector('#confirmBookingBtn').addEventListener('click', () => {
+            // Salva agendamento na lista do cliente
+            const clientBookings = JSON.parse(localStorage.getItem('cao-gato-bookings') || '[]');
+            clientBookings.push({
+                service: bookingData.service,
+                dateTime: `${bookingData.date} às ${bookingData.time}`,
+                pet: `${bookingData.petName} (${bookingData.petSpecies})`,
+                tutor: bookingData.tutorName,
+                status: 'Confirmado'
+            });
+            localStorage.setItem('cao-gato-bookings', JSON.stringify(clientBookings));
+
+            document.querySelector('#confirmBookingBtn').style.display = 'none';
+            document.querySelector('#bookingSuccessBox').style.display = 'block';
+            updateClientBookingsView();
+        });
+
+        document.querySelector('#openClientAreaFromBooking').addEventListener('click', () => {
+            toggleAuthModal(true);
+        });
+
+        // Gatilhos diretos para abrir o agendador a partir dos botões da página
+        document.querySelectorAll('.wizard-trigger-btn, .carousel-book-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const srv = btn.dataset.service;
+                const matchCard = Array.from(document.querySelectorAll('.service-choice-card')).find(c => c.dataset.value.includes(srv) || srv.includes(c.dataset.value));
+                if (matchCard) matchCard.click();
+                document.querySelector('#agendamento').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        document.querySelector('#heroStartBookingBtn').addEventListener('click', () => {
+            document.querySelector('#agendamento').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // ==========================================
+        // SISTEMA DE LOGIN SATISFATÓRIO & ÁREA DO TUTOR
+        // ==========================================
+        let authMode = 'login'; // 'login' ou 'register'
+        const tabLoginBtn = document.querySelector('#tabLoginBtn');
+        const tabRegisterBtn = document.querySelector('#tabRegisterBtn');
+        const nameFieldGroup = document.querySelector('#nameFieldGroup');
+        const authSubmitBtnClean = document.querySelector('#authSubmitBtnClean');
+        const unloggedView = document.querySelector('#unloggedView');
+        const loggedView = document.querySelector('#loggedView');
+        const authFeedbackMessage = document.querySelector('#authFeedbackMessage');
+
+        function setAuthMode(mode) {
+            authMode = mode;
+            tabLoginBtn.classList.toggle('active', mode === 'login');
+            tabRegisterBtn.classList.toggle('active', mode === 'register');
+            nameFieldGroup.style.display = mode === 'register' ? 'flex' : 'none';
+            authSubmitBtnClean.textContent = mode === 'register' ? 'Criar Cadastro com Sucesso' : 'Entrar na Minha Conta';
+            authFeedbackMessage.textContent = '';
+        }
+
+        tabLoginBtn.addEventListener('click', () => setAuthMode('login'));
+        tabRegisterBtn.addEventListener('click', () => setAuthMode('register'));
+
+        function updateClientBookingsView() {
+            const listEl = document.querySelector('#clientBookingsList');
+            const bookings = JSON.parse(localStorage.getItem('cao-gato-bookings') || '[]');
+            if (bookings.length === 0) {
+                listEl.innerHTML = '<p style="color:var(--text-muted); font-size:0.85rem;">Nenhum agendamento ativo no momento.</p>';
+            } else {
+                listEl.innerHTML = bookings.map(b => `
+                    <div class="booking-item-card">
+                        <div>
+                            <strong style="font-size: 0.9rem; display: block;">${b.service}</strong>
+                            <small style="color: var(--text-muted); font-size: 0.78rem;">${b.pet} · ${b.dateTime}</small>
+                        </div>
+                        <span class="booking-badge-confirmed">${b.status}</span>
+                    </div>
+                `).join('');
+            }
+        }
+
+        function checkUserSession() {
+            const sessionEmail = localStorage.getItem('petshop-logged-user');
+            if (sessionEmail) {
+                unloggedView.style.display = 'none';
+                loggedView.style.display = 'block';
+                const name = localStorage.getItem('petshop-user-name') || sessionEmail.split('@')[0];
+                document.querySelector('#clientTutorName').textContent = name;
+                document.querySelector('#clientTutorEmail').textContent = sessionEmail;
+                document.querySelector('#clientAvatarLetter').textContent = name.charAt(0).toUpperCase();
+                document.querySelector('#userLabel').textContent = name.split(' ')[0];
+                updateClientBookingsView();
+            } else {
+                unloggedView.style.display = 'block';
+                loggedView.style.display = 'none';
+                document.querySelector('#userLabel').textContent = 'Minha Conta';
+            }
+        }
+
+        document.querySelector('#authFormClean').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.querySelector('#authEmailClean').value.trim();
+            const name = document.querySelector('#regTutorName').value.trim() || email.split('@')[0];
+            
+            localStorage.setItem('petshop-logged-user', email);
+            localStorage.setItem('petshop-user-name', name);
+            
+            authFeedbackMessage.textContent = authMode === 'register' ? '✓ Conta criada com sucesso!' : '✓ Conectado!';
+            setTimeout(() => {
+                checkUserSession();
+                toggleAuthModal(false);
+                authFeedbackMessage.textContent = '';
+            }, 800);
+        });
+
+        document.querySelector('#logoutBtn').addEventListener('click', () => {
+            localStorage.removeItem('petshop-logged-user');
+            localStorage.removeItem('petshop-user-name');
+            checkUserSession();
+            toggleAuthModal(false);
+        });
+
+        document.querySelector('#clientNewBookingBtn').addEventListener('click', () => {
+            toggleAuthModal(false);
+            document.querySelector('#agendamento').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Eventos gerais do Carrinho e Modais
+        catalogEl.addEventListener('click', (e) => {
+            const btn = e.target.closest('.btn-add-cart');
+            if (btn) addToCart(Number(btn.dataset.id));
+        });
+
+        cartItemsListEl.addEventListener('click', (e) => {
+            const btn = e.target.closest('.btn-del-cart');
+            if (btn) removeFromCart(Number(btn.dataset.id));
+        });
+
+        document.querySelectorAll('.filter-pill').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderCatalog(btn.dataset.filter);
+            });
+        });
+
+        document.querySelector('#cartButton').addEventListener('click', () => toggleDrawer(true));
+        document.querySelector('#closeCartBtn').addEventListener('click', () => toggleDrawer(false));
+        document.querySelector('#userButton').addEventListener('click', () => {
+            checkUserSession();
+            toggleAuthModal(true);
+        });
+        document.querySelector('#closeAuthBtn').addEventListener('click', () => toggleAuthModal(false));
+        backdropOverlay.addEventListener('click', () => {
+            toggleDrawer(false);
+            toggleAuthModal(false);
+        });
+
+        document.querySelector('#btnCheckout').addEventListener('click', () => {
+            if (cart.length === 0) {
+                alert('Sua sacola está vazia.');
+                return;
+            }
+            alert('Pedido encaminhado com sucesso para a equipe de atendimento via WhatsApp!');
+            toggleDrawer(false);
+        });
+
+        // Animações sutis via IntersectionObserver (Scroll Reveal)
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, { threshold: 0.12 });
+
+            document.querySelectorAll('.reveal-fade-up').forEach(el => observer.observe(el));
+        }
+
+        // Inicialização
+        renderCatalog();
+        renderCart();
+        checkUserSession();
+    </script>
+</body>
+</html>
